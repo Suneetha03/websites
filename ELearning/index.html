@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eLearning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 style="color: #00ff00;">LearnLine</h1>
+        <nav>
+            <ul>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+              <section id="courses" class="course">
+            <h2>Our Courses</h2>
+            <div class="course-list">
+                <div class="course-item">
+                    <h3>Course 1</h3>
+                    <p>Learn the basics of web development.</p>
+                    <p>RS.5000</p>
+                    <button onclick="enroll('Course 1')">Enroll</button>
+                </div>
+                <div class="course-item">
+                    <h3>Course 2</h3>
+                    <p>Advanced JavaScript techniques.</p>
+                     <p>RS.4000</p>
+                    <button onclick="enroll('Course 2')">Enroll</button>
+                </div>
+                <div class="course-item">
+                    <h3>Course 3</h3>
+                    <p>Introduction to Python programming.</p>
+                     <p>RS.4000</p>
+                    <button onclick="enroll('Course 3')">Enroll</button>
+                </div>
+                <div class="course-item">
+                    <h3>Course 4</h3>
+                    <p>Data structures and algorithms.</p>
+                     <p>RS.10000</p>
+                    <button onclick="enroll('Course 4')">Enroll</button>
+                </div>
+                <div class="course-item">
+                    <h3>Course 5</h3>
+                    <p>Machine learning basics.</p>
+                     <p>RS.10000</p>
+                    <button onclick="enroll('Course 5')">Enroll</button>
+                </div>
+                <div class="course-item">
+                    <h3>Course 6</h3>
+                    <p>Introduction to databases.</p>
+                     <p>RS.5000</p>
+                    <button onclick="enroll('Course 6')">Enroll</button>
+                </div>
+                <div class="course-item">
+                    <h3>Course 7</h3>
+                    <p>Mobile app development with React Native.</p>
+                     <p>RS.5000</p>
+                    <button onclick="enroll('Course 7')">Enroll</button>
+                </div>
+                <div class="course-item">
+                    <h3>Course 8</h3>
+                    <p>Cybersecurity fundamentals.</p>
+                     <p>RS.10000</p>
+                    <button onclick="enroll('Course 8')">Enroll</button>
+                </div>
+                <div class="course-item">
+                    <h3>Course 9</h3>
+                    <p>Introduction to cloud computing.</p>
+                     <p>RS.10000</p>
+                    <button onclick="enroll('Course 9')">Enroll</button>
+                </div>
+                <div class="course-item">
+                    <h3>Course 10</h3>
+                    <p>Basics of artificial intelligence.</p>
+                     <p>RS.2000</p>
+                    <button onclick="enroll('Course 10')">Enroll</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <div class="staff-list">
+                <div class="staff">
+                    <img src="1.png" alt="Staff Member 1">
+                    <h3>Arjun</h3>
+                    <p>Director</p>
+                </div>
+                <div class="staff">
+                    <img src="2.png" alt="Staff Member 2">
+                    <h3>Ram</h3>
+                    <p>Manager</p>
+                </div>
+                <div class="staff">
+                    <img src="3.png" alt="Staff Member 3">
+                    <h3>Adi</h3>
+                    <p>Support Executive</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p style="color:#00ff00;">Designed bu Suneetha</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
